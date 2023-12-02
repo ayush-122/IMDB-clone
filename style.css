@@ -1,0 +1,268 @@
+/* Body styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: black;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Navigation bar styles */
+#navigation-bar {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#navigation-bar h1 {
+    margin: 27px 10px;
+    font-size: 26px;
+    color: #f5c518;
+}
+
+#navigation-bar a
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#f5c518; 
+    height: fit-content;
+    background-color: #1c1c1c;
+    width: fit-content; 
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size:20px;
+    margin: 25px 50px;
+    padding: 5px;
+}
+
+/* Search bar styles */
+#search-bar {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 60px;
+}
+
+#search-input {
+    width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.quote
+{
+  font-size: 28px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color:#f5c518;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1.2px;
+    line-height: 1.5;
+    margin-top: 100px;
+    background-color: #1c1c1c; /* Background color */
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+#movie-grid {
+    display: flex;
+    max-width: 70vw; /* Decrease the max-width of the movie grid */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Use space-around to add space between movie cards */
+    margin-top: 20px;
+    margin: auto;
+}
+
+/* Movie card styles */
+.movie-card {
+    border: 1px solid #555;
+    margin: 20px 10px; /* Adjust margin for movie cards */
+    width: 260px;
+    padding: 5px;
+    text-align: center;
+    background-color: #1c1c1c;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.movie-card h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.movie-card p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.movie-card a{
+    text-decoration: none;
+}
+.movie-card a:hover{
+    text-decoration: none;  ;
+    
+}
+
+
+
+
+/* movie page style */
+.mov-header-link {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.mov-header-link a {
+    text-align: right;
+    text-decoration: none;
+    color:rgb(216, 7, 81); /* Red text color */
+    font-size: 20px;
+    border: 2px solid #bdc3c7; /* Light grey border */
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 20px 30px;
+}
+
+.mov-header-link a:hover {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(131, 3, 3); /* Yellow hover color */
+    font-size: 20px;
+    border: 2px solid #f5c518; /* Yellow hover border */
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.mov-details
+{
+    color:whitesmoke;
+    font-size: 18px;
+    margin: 10px 10px;
+    
+}
+
+.genre {
+    
+    width: fit-content;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+
+
+#movie-container
+{
+    display: flex;
+    text-align:start;
+    justify-content: space-evenly;
+    margin:30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#movie-head
+{
+    display: flex;
+    text-align: start;
+    font-size: 20px;
+}
+
+#movie-details
+{
+    display: flex;
+    flex-direction: column;
+    margin:50px 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+
+/* styling favourite grid style */
+#fav-grid {
+    display: flex;
+    max-width: 70vw; /* Decrease the max-width of the movie grid */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Use space-around to add space between movie cards */
+    margin-top: 20px;
+    margin: auto;
+}
+
+/* fav-grid */
+#fav-grid {
+    display: flex;
+    max-width: 70vw; /* Decrease the max-width of the movie grid */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Use space-around to add space between movie cards */
+    margin-top: 20px;
+    margin: auto;
+}
+
+/* Movie card styles */
+.fav-card {
+    border: 1px solid #555;
+    margin: 20px 10px; /* Adjust margin for movie cards */
+    width: 260px;
+    padding: 5px;
+    text-align: center;
+    background-color: #1c1c1c;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 30px;
+}
+
+.fav-card:hover {
+    transform: scale(1.1);
+}
+
+.fav-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.fav-card h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fav-card p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.fav-card a{
+    text-decoration: none;   /*removing decoration from hyperlink */
+}
+.fav card a:hover{
+    text-decoration: none; /*removing decoration from hyperlink (on hovering property should reserve */
+    
+}
