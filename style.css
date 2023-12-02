@@ -17,6 +17,9 @@ body {
 
 #navigation-bar h1 {
     margin: 27px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 26px;
     color: #f5c518;
 }
@@ -30,7 +33,7 @@ body {
     color:#f5c518; 
     height: fit-content;
     background-color: #1c1c1c;
-    width: fit-content; 
+    width: fit-content;
     border: 1px solid grey;
     border-radius: 5px;
     font-size:20px;
@@ -42,11 +45,12 @@ body {
 #search-bar {
     margin-top: 20px;
     text-align: center;
+    width: max-content;
     border-radius: 60px;
 }
 
 #search-input {
-    width: 600px;
+    width: 300px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #555;
