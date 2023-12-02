@@ -22,6 +22,6 @@ This is a mini IMDB clone app created using vanilla JavaScript, HTML, and CSS. T
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mini-imdb-clone.git
+   git clone https://github.com/ayush-1222/IMDB-clone.git
    cd mini-imdb-clone
 
