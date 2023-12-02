@@ -14,6 +14,13 @@ body {
     text-align: center;
     justify-content: space-evenly;
 }
+@media (max-width: 768px) {
+    #navigation-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Optional: center items horizontally */
+    }
+  }
 
 #navigation-bar h1 {
     margin: 27px 5px;
